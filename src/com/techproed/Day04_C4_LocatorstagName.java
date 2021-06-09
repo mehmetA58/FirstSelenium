@@ -28,8 +28,5 @@ public class Day04_C4_LocatorstagName {
         String homeYazisi = homeTagName.getText();
         System.out.println("home elementinin yazisi = " + homeYazisi);
 
-
-
-
     }
 }

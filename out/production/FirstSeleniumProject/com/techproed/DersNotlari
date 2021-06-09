@@ -156,12 +156,12 @@ getText()			   		: bir web elementin yazısını aldırır
         Relative xpath = //div[@id='logo'] veya //div[@class=’flex col logo’]
 
     ====xpath bulma yollari
-        ● //tagName[@attribute='value']; => önemli
+        ● ************ //tagName[@attribute='value']; => ONEMLİ
         ● tagName sadece tagname ile locate etmek icin
         ● //*[@type=‘email’] tag ismi onemli olmadan attribute’u type olarak “email” degeri alan elementleri verir
         ● Exact Text Belirli bir text) ile element bulma:
                 //tagname[.='text name'] Belirli bir tagname , herhangi bir attribute, belirli bir text
-                //*[.='text name'] Herhangi bir tag, belirli bir text.
+                *********    //*[.='text name'] Herhangi bir tag, herhangi bir attribute,belirli bir text.  => ONEMLİ
                 //*[(text()='exact text with extra space and all')] Herhangi bir tag, belirli bir text
         ● Belirli bir metni içeren bir öğeyi bulmak için şunları kullanabiliriz:
                  //*[contains(text(),'piece of text

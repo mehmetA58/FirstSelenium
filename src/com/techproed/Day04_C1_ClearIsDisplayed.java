@@ -31,6 +31,5 @@ public class Day04_C1_ClearIsDisplayed {
         }else{
             System.out.println("hayir gorunmuyor");
         }
-
     }
 }

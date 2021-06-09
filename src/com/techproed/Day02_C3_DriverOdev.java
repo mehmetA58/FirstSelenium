@@ -31,7 +31,5 @@ public class Day02_C3_DriverOdev {
         driver.navigate().back();   // 5. adım  google.com'a geri gelelim ve sayfanın url'sini alıp ekrana yazdıralım
         System.out.println("Google url :" +driver.getCurrentUrl());
         driver.quit();  // 6. adım    driverımızı kapatalım
-
     }
-
 }

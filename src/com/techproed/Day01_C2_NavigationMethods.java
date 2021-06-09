@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day01_C2_NavigationMethods {
-
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:/Users/asus/Documents/selenium dependencies/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -26,8 +25,5 @@ public class Day01_C2_NavigationMethods {
         driver.navigate().refresh(); // oldugu sayfayi yeniler
 
         driver.close();
-
-
     }
-
 }

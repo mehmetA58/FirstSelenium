@@ -19,6 +19,5 @@ public class Day02_C4_ifElse {
         } else {
             System.out.println(amazonTitle + " ' da computer kelimesi gecmiyor");
         }
-
     }
 }

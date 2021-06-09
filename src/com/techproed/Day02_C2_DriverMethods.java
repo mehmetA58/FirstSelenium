@@ -22,11 +22,5 @@ public class Day02_C2_DriverMethods {
         String amazonUrl = driver.getCurrentUrl();
         // amazon URL sini yazdirir
         System.out.println("amazonun Url'si : " + amazonUrl); //amazonun Url'si : https://www.amazon.com/
-
-
-
-
-
-
     }
 }

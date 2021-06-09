@@ -6,8 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Locale;
 
 public class Day02_C5_TitleUrlTest {
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
        /*
     1-youtube.com'a gidin
     2-sayfa başlığı video kelimesi içeriyor mu ona bakın
@@ -23,10 +22,7 @@ public class Day02_C5_TitleUrlTest {
             } else {
                 System.out.println(youtubeTitle + " video kelimesi icermiyor");
             }
-
             driver.quit();
-
-            
         }
     }
 

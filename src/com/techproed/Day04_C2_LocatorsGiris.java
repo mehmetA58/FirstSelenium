@@ -32,10 +32,7 @@ public class Day04_C2_LocatorsGiris {
 
        //! Ayni class degerine sahip attribute e sahip  veriler lokasyon ayni oldugu icin ayni yere yollar veriyi...ilk buldugu yere yazar
 
-
         WebElement passwordKutusu = driver.findElement(By.id("session_password"));
         passwordKutusu.sendKeys("Test1234!");
-
-
     }
 }

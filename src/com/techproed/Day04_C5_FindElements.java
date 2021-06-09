@@ -34,7 +34,5 @@ public class Day04_C5_FindElements {
 
         listem.stream().forEach(x-> System.out.println(x.getText()));   //Home
                                                                         //Sign in
-
-
     }
 }

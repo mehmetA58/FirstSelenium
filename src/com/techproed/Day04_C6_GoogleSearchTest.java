@@ -19,7 +19,6 @@ public class Day04_C6_GoogleSearchTest {
             e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
 
          */
-
         System.setProperty("webdriver.chrome.driver",
                 "C:/Users/asus/Documents/selenium dependencies/drivers/chromedriver.exe");
 

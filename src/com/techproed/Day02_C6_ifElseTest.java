@@ -70,9 +70,6 @@ public class Day02_C6_ifElseTest {
             System.out.println("sayfa dogru degildir");
             System.out.println("actual Title "+AmzUrl);
         }
-
         driver.quit();
-
-
     }
 }

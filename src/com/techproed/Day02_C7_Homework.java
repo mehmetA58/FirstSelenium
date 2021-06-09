@@ -32,7 +32,6 @@ public class Day02_C7_Homework {
             System.out.println("baslik dogru degildir");
             System.out.println("actual Title :" + facebookTitle);
         }
-
         String faceUrl = driver.getCurrentUrl();
         System.out.println("faceUrl :" +faceUrl);
         if (faceUrl.toLowerCase(Locale.ROOT).contains("facebook")) {
@@ -41,7 +40,6 @@ public class Day02_C7_Homework {
             System.out.println(faceUrl +" facebook kelimesi icermiyor");
             System.out.println("actual Url :" + faceUrl);
         }
-
         driver.navigate().to("http:\\www.walmart.com");
         String walmartTitle = driver.getTitle();
         System.out.println("walmartTitle :" + walmartTitle);
@@ -51,12 +49,9 @@ public class Day02_C7_Homework {
             System.out.println("baslik dogru degildir");
             System.out.println("actual Title :" + walmartTitle);
         }
-
         driver.navigate().back();//facebook sayfasini gorecegiz
         driver.navigate().refresh();//facebook sayfasini gorecegiz
         driver.manage().window().maximize();
         driver.close();
-
-
     }
 }

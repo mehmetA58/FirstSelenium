@@ -16,7 +16,6 @@ public class Day05_C1_DersTekrar {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com/");
-
 /*
     <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off"
     placeholder="" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search">
@@ -42,7 +41,5 @@ public class Day05_C1_DersTekrar {
             getUrl()
              */
         }
-
-
     }
 }

@@ -28,14 +28,5 @@ public class Day04_C3_LocatorsLinkText {
 
         WebElement homelink = driver.findElement(By.partialLinkText("om")); // icerisinde  "om" (home nin om si) olan linklerin ilkini alır
         homelink.click();
-
-
-
-
-
-
-
-
     }
-
 }
