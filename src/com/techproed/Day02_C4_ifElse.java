@@ -18,6 +18,7 @@ public class Day02_C4_ifElse {
             System.out.println(amazonTitle + " ' da computer kelimesi geciyor");
         } else {
             System.out.println(amazonTitle + " ' da computer kelimesi gecmiyor");
+
         }
     }
 }

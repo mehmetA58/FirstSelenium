@@ -28,5 +28,6 @@ public class Day05_C3_LocatorsXpath02 {
 
     //3.yol
         System.out.println(driver.findElement(By.tagName("h1")).getText()); //Welcome to Address Book
+
     }
 }
