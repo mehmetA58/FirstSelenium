@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Day05_C2_LocatorsXpath01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         /*
         selenium dersinde locators konusu dendiginde akla gelen ilk method xpath olmalidir.
         Absolute xpath:Mutlak :Parent dan child a tek tek gidilir,yaygin olarak kullanilmaz..tag ler arasinda '/' kullanilir
@@ -52,9 +52,10 @@ public class Day05_C2_LocatorsXpath01 {
     <input class="form-control" placeholder="Password" data-test="password" type="password"
     name="session[password]" id="session_password">
      */
+        Thread.sleep(3000);
         WebElement passwordKutusu =driver.findElement(By.xpath("//input[@type='password']"));
         passwordKutusu.sendKeys("Test1234!");
-
+        Thread.sleep(3000);
     /*
     <input type="submit" name="commit" value="Sign in" class="btn btn-primary"
     data-test="submit" data-disable-with="Sign in">
